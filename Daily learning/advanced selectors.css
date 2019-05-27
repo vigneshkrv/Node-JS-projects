@@ -1,0 +1,25 @@
+/*star -> all*/
+*{
+	border:1px dotted red;
+}
+
+/*descendant*/
+ul li{
+	background-color: rgba(152,200,100,.5);
+}
+
+/*adjacent*/
+h3 + ul{
+	background: pink;
+}
+/*attribute*/
+li[name="favourite"]{
+	text-decoration:line-through;
+}
+/*nth of type*/
+li:nth-of-type(odd){
+	color: red;
+}
+li:nth-of-type(odd) a{
+	color: red;
+}
