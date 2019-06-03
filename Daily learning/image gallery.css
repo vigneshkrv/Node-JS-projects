@@ -1,0 +1,50 @@
+.image1{
+	background-image: url(https://source.unsplash.com/1uVZZDQfByY);
+}
+.image2{
+	background-image: url(https://source.unsplash.com/mvAecFDOknQ);
+}
+.image3{
+	background-image: url(https://source.unsplash.com/9GxyYiz51tM);
+}
+.image4{
+	background-image: url(https://source.unsplash.com/c5kgvlbYB7c);
+}
+.image5{
+	background-image: url(https://source.unsplash.com/qiNK8pKucOs);
+}
+.image6{
+	background-image: url(https://source.unsplash.com/f-lDt6sTGJY);
+}
+.image7{
+	background-image: url(https://source.unsplash.com/9tyV63vQoOo);
+}
+.image8{
+	background-image: url(https://source.unsplash.com/ejV5XJMUok4);
+}
+.image9{
+	background-image: url(https://source.unsplash.com/KHI-h9X9jY4);
+}
+.image{
+	width: 100%;
+	height: 200px;
+	background-position: center;
+	background-size: cover;
+}
+
+body{
+	padding-top: 70px;
+}
+.jumbotron{
+	color: #2c3e50;
+	background-color: #ecf0f1;
+}
+.navbar-inverse{
+	background: #2c3e50;
+}
+.navbar-inverse .navbar-nav li a{
+	color: white;
+}
+.navbar-inverse .navbar-brand{
+	color: white;
+}
