@@ -2,6 +2,8 @@
 /* CSS Document */
 body{
 	background-color: #232323;
+	margin: 0;
+	
 }
 .square{
 	width: 30%;
@@ -9,18 +11,33 @@ body{
 	padding-bottom: 30%;
 	float: left;
 	margin:1.66%;
+	border-radius: 50%;
+	transition:background 0.5s;
+	-webkit-transistion:background 0.5s;
+	-moz-transistion:background 0.5s;
 	
 }
 
 #container{
 	width: 600px;
 	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#pickedcolor{
+	font-size: 200%;
 }
 
 h1{
 	color: white;
 	text-align: center;
+	background-color: steelblue;
 	margin: 0;
+	line-height: 1.1;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-family: "Avenir", "Montserrat";
+	padding: 20px 0;
 }
 
 #menu{
@@ -29,7 +46,31 @@ h1{
 	text-align: center;
 }
 
-#reset{
-	height: 30px;
-	
+button:hover{
+	color:white;
+	background-color: steelblue;
+	transition:all 0.5s;
+	-webkit-transistion: 0.5s;
+	-moz-transistion: 0.5s;
+}
+
+button{
+	background-color: white;
+	height: 100%;
+	border: 0;
+	text-transform: uppercase;
+	color: steelblue;
+	font-weight: 700;
+	letter-spacing: 1;
+	font-size: inherit;
+	outline: none;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+}
+.selected{
+	color:white;
+	background: steelblue;
 }

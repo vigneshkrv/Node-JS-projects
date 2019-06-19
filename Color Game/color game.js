@@ -1,23 +1,56 @@
 // JavaScript Document
-var color=generateColor(6);
+var numOfSquares=6;
+var color=generateColor(numOfSquares);
 var squares=document.querySelectorAll(".square");
 var pickedColor=pickColor();
 var displayColor=document.getElementById("pickedcolor");
-displayColor.textContent=pickedColor;
 var message=document.querySelector("#message");
 var h1=document.querySelector("h1");
 var resetButton=document.querySelector("#reset");
+var easyButton=document.querySelector("#easybtn");
+var hardButton=document.querySelector("#hardbtn");
+var flag=1;
 
+displayColor.textContent=pickedColor;
 resetButton.addEventListener("click",function()
 	{
-	color=generateColor(6);
+	color=generateColor(numOfSquares);
+	resetColorOnClick();
 	
-	pickedColor=pickColor()
-	displayColor.textContent=pickedColor;
-	resetColorOnClick(color);
-	h1.style.backgroundColor="#232323";
-	resetButton.textContent="New colors"
 	});
+
+easyButton.addEventListener("click", function(){
+	
+	easyButton.classList.add("selected");
+	hardButton.classList.remove("selected");
+	numOfSquares=3;
+	color=generateColor(numOfSquares);	
+	if(flag===1){
+		resetColorOnClick();
+	}
+	
+	for(var i=3;i<6;i++)
+		{
+			squares[i].style.display="none";
+		}
+	flag=0;
+});
+
+hardButton.addEventListener("click", function(){
+	for(var i=3;i<6;i++)
+		{
+			squares[i].style.display="block";
+		}
+	easyButton.classList.remove("selected");
+	hardButton.classList.add("selected");
+	numOfSquares=6;
+	color=generateColor(numOfSquares);
+	if(flag===0)
+		{
+			resetColorOnClick();
+		}
+	flag=1;
+});
 
 for( var i=0; i<squares.length;i++)
 	{
@@ -48,7 +81,7 @@ function changeColor(color){
 		}
 }
 
-function resetColorOnClick(color){
+function resetColorOnNew(color){
 	for(var i=0;i<squares.length;i++)
 		{
 			squares[i].style.backgroundColor=color[i];
@@ -78,4 +111,13 @@ function randomColor()
 	var b=Math.floor(Math.random()*256);
 	
 	return "rgb("+r+", "+g+", "+b+")";
+}
+
+function resetColorOnClick()
+{
+	pickedColor=pickColor()
+	displayColor.textContent=pickedColor;
+	resetColorOnNew(color);
+	h1.style.backgroundColor="steelblue";
+	resetButton.textContent="New colors"
 }
