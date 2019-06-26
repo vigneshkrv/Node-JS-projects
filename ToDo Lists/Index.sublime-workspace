@@ -1,0 +1,388 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"user",
+				"usermodel"
+			],
+			[
+				"mongoose",
+				"mongooseUniqueValidator"
+			],
+			[
+				"bCK",
+				"background-image\tproperty"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"font-st",
+				"font-style\tproperty"
+			],
+			[
+				"le",
+				"letter-spacing\tproperty"
+			],
+			[
+				"font",
+				"font-stretch\tproperty"
+			],
+			[
+				"s",
+				"semi-expanded\tfont-stretch"
+			],
+			[
+				"fon",
+				"font-stretch\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"paddi",
+				"padding-bottom\tproperty"
+			],
+			[
+				"bor",
+				"border-width\tproperty"
+			],
+			[
+				"border-r",
+				"border-right\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"text-al",
+				"text-align\tproperty"
+			],
+			[
+				"Tic",
+				"TicTacToe"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"te",
+				"text-decoration-line\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"rgb",
+				"rgba()\tbackground"
+			],
+			[
+				"text-de",
+				"text-decoration-color\tproperty"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"to",
+				"todo"
+			],
+			[
+				"d",
+				"double\tborder-style"
+			],
+			[
+				"co",
+				"contain\tbackground-size"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"o",
+				"option\tTag"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"mi",
+				"minlength\tAttr"
+			],
+			[
+				"r",
+				"rows\tAttr"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"i",
+				"id\tAttr"
+			],
+			[
+				"a",
+				"action\tAttr"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"b",
+				"border\tAttr"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/user/OneDrive - hawk.iit.edu/pigie-backend/package.json",
+		"/C/Users/user/OneDrive - hawk.iit.edu/pigie-backend/index.js",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/image gallery.html",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/bootstrap navbars.html",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/bootstrap_basics.html",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/bootstrap.css",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/learn Bootstrap.css",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/bootstrap form.html",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/blog.css",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/blog.html",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/photo blog.css",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/photo blog.html",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/TicTacToe.css",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/TicTacToe board.html",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/selectors.css",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/selectorsExercise.html",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/advanced selectors.css",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/Selectors.html",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/Selectors.css",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/specificity.html",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/specificity.css",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/pract3.html",
+		"/C/Users/user/OneDrive - hawk.iit.edu/yellowsapphire/Daily learning/todo.css",
+		"/C/Users/user/Desktop/Daily learnings/web design/form.css",
+		"/C/Users/user/Desktop/Daily learnings/web design/assign4.html",
+		"/C/Users/user/Desktop/Daily learnings/web design/assign3.html",
+		"/C/Users/user/Desktop/Daily learnings/web design/form.html",
+		"/C/Users/user/Desktop/Daily learnings/web design/pokemondata.txt",
+		"/C/Users/user/Desktop/Daily learnings/web design/pract2.html",
+		"/C/Users/user/Desktop/Daily learnings/web design/assign1.html",
+		"/C/Users/user/Desktop/Daily learnings/web design/pract1.html",
+		"/C/Users/user/Desktop/Daily learnings/web design/assign2.html",
+		"/C/Users/user/Desktop/Daily learnings/web design/welcome.html",
+		"/C/Users/user/Desktop/prog1 .java",
+		"/C/Users/user/Desktop/SSA_HW3.txt",
+		"/C/Users/user/Desktop/Daily learnings/lesson1.py"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
