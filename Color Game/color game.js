@@ -121,3 +121,5 @@ function resetColorOnClick()
 	h1.style.backgroundColor="steelblue";
 	resetButton.textContent="New colors"
 }
+
+console.log("hello vignesh")

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="paper-full.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.js"></script>
+    <link type="text/css" href="patatap.css" rel="stylesheet">
+    <script type="text/paperscript" canvas="can">
+    var sound=new Howl({
+        src:["sounds/bubbles.mp3"]
+    });
+      var a=[];
+      function color()
+      {
+      var r=Math.random()*256;
+      var g=Math.random()*256;
+      var b=Math.random()*256;
+      return "rgb("+r+", "+g+", "+b+")";
+      }
+            function onKeyDown(e) 
+            {
+            sound.play();
+            var maxPoint=new Point(view.size.width, view.size.height);
+            var randomPoint=Point.random();
+            var point=maxPoint*randomPoint;
+            var circle=new Path.Circle(new Point(point),200);
+            circle.fillColor=color();
+            a.push(circle);       
+            }
+
+            function onFrame(event)
+            {
+                for(var i=0;i<a.length;i++)
+                {
+                    a[i].fillColor.hue +=1;
+                    a[i].scale(.94);
+                }
+                
+            }
+    //    var a=new Path.Circle(new Point(500,500),100);
+    //     a.fillColor="red";
+    //     function onFrame(event){
+    //         a.fillColor.hue +=1;
+    //         a.scale(0.9);
+    //     }
+           
+    </script>
+</head>
+<body>
+    <canvas id="can" resize></canvas>
+</body>
+</html>
